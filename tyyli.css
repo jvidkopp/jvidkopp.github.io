@@ -1,0 +1,97 @@
+/* kommentti/useamman rivin kommentti. muista sulkea --> */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+h1 {
+    font-family:"Major Mono Display", monospace, Times, serif;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(130, 188, 255);
+    /*background-color: white; */
+    margin: 20%;
+    
+
+    padding: 10px;
+}
+h2 {
+    font-family: "Poiret One", sans-serif, Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(130, 188, 255);
+    /*background-color: white; */
+    margin: 100px 100px 300px 100px;
+    
+
+    padding: 10px;
+}
+
+.esittely {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    margin: 20% 20% 20% 20%;
+    text-align: center;
+}
+
+.keskelle {
+    text-align: center;/* kuvan ja tekstin keskitys */
+    margin: 100px;}
+.keskelle img {width: 100%; /* skaalautuu mobiiliin */
+}
+
+body {
+    background-color: white;
+    /*background-image: url(IMG_2373.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+    font-family: "Poppins", sans-serif;
+    /*margin: 100px 100px 100px 100px;*/
+    font-size: 14px;
+    text-align: center;
+
+    
+}
+
+.teksti {
+    margin: 100px 300px 100px 300px;
+}
+
+a:link {
+    color: rgb(130, 188, 255);
+}
+a:visited {
+    color: rgb(130, 188, 255);
+}
+a:hover {
+    color: gray;
+}
+button {
+    margin: 10px;
+    background-color: white;
+    color: rgb(130, 188, 255);
+    border-color: white;
+}
+button:hover {
+    background-color: rgb(130, 188, 255);
+    border-color: white;
+    color: white;
+}
+
+
+
+
+
+
+/* main {background-color: rgb(255, 255, 255);
+    .keskelle {align-items: center;}
+    border: rgb(0, 0, 0) 3px solid; /* reunus */
+/*    padding: 15px; /* reunuksen ja sisällön välissä */
+/*    width: 40%; /* leveys */
+/*    max-width: 1200px; /* maksimileveys */
+/*    margin:auto; /* keskitys sivun keskelle */
+/*    border-radius: 30px; /* kulman pyöristys */
+/*    box-shadow: 8px 8px 8px rgb(210, 226, 226); /* varjo */ 
+    
+/* } */ 
