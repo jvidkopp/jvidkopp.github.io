@@ -2,18 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="tyyli.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+    <title>Jenny Vidkopp CV</title>
+    <style>
+        .hover-button {
+            background: white; /* No background */
+            border: rgb(130, 188, 255) 2px solid;           /* No border */
+            cursor: pointer;        /* Pointer cursor */
+            padding: 3px;
+        }
+        
+        .hover-button.icon {
+            color: white; /* Default color */
+            transition: color 0.3s;  /* Smooth transition */
+        }
+    
+        .nuoli:hover {
+            color: white; /* Default color */
+            transition: color 0.3s; 
+        }
+        </style>
 </head>
 <body>
 
-    <h1>Tämä on CV (sivu 2)</h1>
-    
-    <p class="teksti">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste molestiae hic nesciunt vero error officia quis atque dolor eaque optio et quam fugiat ipsa, nihil earum vitae? Eveniet, earum dolor?</p>
-    <p class="teksti">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat quo dignissimos, molestias doloribus tempore nesciunt laboriosam commodi ad iusto voluptates deleniti at magni blanditiis aperiam nisi ut rerum accusantium cupiditate.</p>
+    <h1>CV</h1>
+    <h2>Tarkastele CV:täni täältä</h2>
 
+    <figure class="keskelle">
+        <img src="cvkuva.png" alt="Jenny Vidkopp CV">
+    </figure>
+    
+<article class="flex-container">
+
+<section>
+    Lataa tästä:
+    <button class="hover-button" onclick="location.href='cv.pdf'">
+    <svg class="nuoli"
+        width="25px" 
+        height="25px" 
+        xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 24 24" 
+        fill="currentColor" 
+        color= "rgb(130, 188, 255)">
+    <path 
+        d="M4.97 12.97a.75.75 0 101.06 1.06L11 9.06v12.19a.75.75 0 001.5 0V9.06l4.97 4.97a.75.75 0 101.06-1.06l-6.25-6.25a.75.75 0 00-1.06 0l-6.25 6.25zM4.75 3.5a.75.75 0 010-1.5h14.5a.75.75 0 010 1.5H4.75z">
+    </path>
+    </svg>
+</button>
+</section>
+</article>
+
+   <br><br><br><br><br><br>
 </body>
+
 </html>

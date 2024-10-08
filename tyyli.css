@@ -2,13 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 
+
+
 h1 {
     font-family:"Major Mono Display", monospace, Times, serif;
     font-size: 60px;
     text-align: center;
     color: rgb(130, 188, 255);
     /*background-color: white; */
-    margin: 20%;
+    margin: 20% auto;
     
 
     padding: 10px;
@@ -35,8 +37,9 @@ h2 {
 
 .keskelle {
     text-align: center;/* kuvan ja tekstin keskitys */
-    margin: 100px;}
-.keskelle img {width: 100%; /* skaalautuu mobiiliin */
+    margin: 20%;}
+.keskelle img {
+    width: 100%; /* skaalautuu mobiiliin */
 }
 
 body {
@@ -55,7 +58,7 @@ body {
 }
 
 .teksti {
-    margin: 100px 300px 100px 300px;
+    margin: auto;
 }
 
 a:link {
@@ -69,15 +72,37 @@ a:hover {
 }
 button {
     margin: 10px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: rgb(130, 188, 255);
-    border-color: white;
+    padding: 8px;
+    border:rgb(130, 188, 255) 2px solid;
 }
 button:hover {
     background-color: rgb(130, 188, 255);
     border-color: white;
     color: white;
+    cursor: pointer; 
+    transition: color 0.3s;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container section {
+    padding: 10px;
+    margin: auto;
+}
+
+.vasen {
+    text-align: right;
+}
+
+.oikea {
+    text-align: left;
+}
+
 
 
 
